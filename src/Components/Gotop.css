@@ -1,0 +1,16 @@
+.go-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+@media(max-width:768px){
+    .go-top{
+        right: -20px;
+    }
+}
