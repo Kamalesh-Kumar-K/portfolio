@@ -5,11 +5,12 @@ import location_icon from "../assets/location_icon.svg";
 import call_icon from "../assets/call_icon.svg";
 
 const Contact = () => {
+   const url = import.meta.env.VITE_ACCESS_KEY
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key",process.env.ACCESS_KEY);
+    formData.append("access_key",url);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
