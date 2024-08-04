@@ -9,7 +9,7 @@ const Hero = () => {
       <img
         src={profile}
         alt="Kamalesh Kumar K"
-        style={{ height: "12rem", width: "12rem", borderRadius: "50%" }}
+        style={{ height: "15rem", width: "15rem", borderRadius: "50%" }}
       />
       <h1>
         <span>I'm Kamalesh Kumar K</span>, frontend developer and undergraduate
