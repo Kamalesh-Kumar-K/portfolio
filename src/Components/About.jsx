@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile from "../assets/Profile.png";
+import profile2 from "../assets/profile2.png";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile} alt="Kamalesh Kumar K" />
+          <img src={profile2} style={{width:'355px', height:'415px', borderRadius:'25px'}} alt="Kamalesh Kumar K" />
         </div>
         <dib className="about-right">
           <div className="about-para">
